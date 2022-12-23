@@ -1,0 +1,296 @@
+body {
+  background: #333;
+  padding: 70px 0;
+  font: 15px/20px Arial, sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  width: 400px;
+  height: 300px;
+  position: relative;
+  perspective: 1000px;
+}
+
+.carousel {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: transform 1s;
+}
+.carousel div {
+  transform-style: preserve-3d;
+}
+.cardContainer {
+  display: block;
+  position: absolute;
+
+  width: 400px;
+  height: 300px;
+
+  color: #fff;
+  /* opacity: 0.95; */
+
+  border-radius: 10px;
+  transition: transform 1s;
+}
+.item {
+  display: block;
+  position: absolute;
+  background: #000;
+  width: 400px;
+  height: 300px;
+  line-height: 200px;
+  font-size: 5em;
+  text-align: center;
+  color: #fff;
+  /* opacity: 0.95; */
+  border-radius: 10px;
+  transition: transform 1s;
+}
+
+.a {
+  transition: transform 0.6s;
+}
+.a .cardContainer {
+  background-image: linear-gradient(
+      rgba(23, 22, 22, 0.35),
+      rgba(23, 22, 22, 0.35)
+    ),
+    url("/imgs/2112.jpeg");
+
+  background-size: cover;
+}
+.a .titleA {
+  color: white;
+  font-size: 1.5em;
+  padding-left: 25px;
+  padding-top: 185px;
+}
+.a .subTitleA {
+  color: white;
+  font-size: 1em;
+  padding-left: 25px;
+  padding-top: 8px;
+}
+.a .btn {
+  font-size: 0.8em;
+  margin-top: 8px;
+  margin-left: 20px;
+  background: rgba(43, 152, 36, 0.92);
+  border: none;
+  border-radius: 20px;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.b {
+  transition: transform 0.6s;
+}
+.b .cardContainer {
+  background-image: linear-gradient(
+      rgba(23, 22, 22, 0.35),
+      rgba(23, 22, 22, 0.35)
+    ),
+    url("/imgs/321.jpeg");
+
+  background-size: cover;
+}
+.b .titleB {
+  color: white;
+  font-size: 1.5em;
+  padding-left: 25px;
+  padding-top: 185px;
+}
+.b .subTitleB {
+  color: white;
+  font-size: 1em;
+  padding-left: 25px;
+  padding-top: 8px;
+}
+.b .btn {
+  font-size: 0.8em;
+  margin-top: 8px;
+  margin-left: 20px;
+  background: rgba(43, 152, 36, 0.92);
+  border: none;
+  border-radius: 20px;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.c {
+  transition: transform 0.6s;
+}
+.c .cardContainer {
+  background-image: linear-gradient(
+      rgba(23, 22, 22, 0.35),
+      rgba(23, 22, 22, 0.35)
+    ),
+    url("/imgs/43434343.jpeg");
+
+  background-size: cover;
+}
+.c .titleC {
+  color: white;
+  font-size: 1.5em;
+  padding-left: 25px;
+  padding-top: 185px;
+}
+.c .subTitle {
+  color: white;
+  font-size: 1em;
+  padding-left: 25px;
+  padding-top: 8px;
+}
+.c .btn {
+  font-size: 0.8em;
+  margin-top: 8px;
+  margin-left: 20px;
+  background: rgba(43, 152, 36, 0.92);
+  border: none;
+  border-radius: 20px;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+.next {
+  right: 22em;
+  top: 77px;
+  padding: 1em 2em;
+  cursor: pointer;
+  background: transparent;
+  position: absolute;
+  color: #444;
+  width: 160px;
+  height: 200px;
+}
+.prev {
+  left: 21.5em;
+  width: 160px;
+  height: 205px;
+  top: 60px;
+  padding: 1em 2em;
+  cursor: pointer;
+  background: transparent;
+  position: absolute;
+  color: #444;
+}
+/* .next,
+.prev {
+  color: #444;
+  margin-right: 310px;
+  position: absolute;
+  top: 60px;
+  padding: 1em 2em;
+  cursor: pointer;
+  background: grey;
+  border-radius: 5px;
+  border-top: 1px solid #fff;
+  box-shadow: 0 5px 0 #999;
+  transition: box-shadow 0.1s, top 0.1s;
+} */
+
+.nueva_clase {
+  padding-top: 50px;
+}
+
+/* Original
+
+body {
+  background: #333;
+  padding: 70px 0;
+  font: 15px/20px Arial, sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  width: 250px;
+  height: 200px;
+  position: relative;
+  perspective: 1000px;
+}
+
+.carousel {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: transform 1s;
+}
+.carousel div {
+  transform-style: preserve-3d;
+}
+
+.item {
+  display: block;
+  position: absolute;
+  background: #000;
+  width: 250px;
+  height: 200px;
+  line-height: 200px;
+  font-size: 5em;
+  text-align: center;
+  color: #fff;
+  opacity: 0.95;
+  border-radius: 10px;
+  transition: transform 1s;
+}
+
+.a {
+  transform: rotateY(0deg) translateZ(250px);
+  transition: transform 0.6s;
+}
+.a .item {
+  background-image: url("/imgs/2112.jpeg");
+  background-size: cover;
+}
+.b {
+  transform: rotateY(60deg) translateZ(250px) rotateY(-60deg);
+  transition: transform 0.6s;
+}
+.b .item {
+  background-image: url("/imgs/321.jpeg");
+  background-size: cover;
+}
+.c {
+  transform: rotateY(300deg) translateZ(250px) rotateY(-300deg);
+  transition: transform 0.6s;
+}
+.c .item {
+  background-image: url("/imgs/43434343.jpeg");
+  background-size: cover;
+}
+.next {
+  right: 5em;
+}
+.prev {
+  left: 5em;
+}
+.next,
+.prev {
+  color: #444;
+  position: absolute;
+  top: 100px;
+  padding: 1em 2em;
+  cursor: pointer;
+  background: #ccc;
+  border-radius: 5px;
+  border-top: 1px solid #fff;
+  box-shadow: 0 5px 0 #999;
+  transition: box-shadow 0.1s, top 0.1s;
+}
+
+.nueva_clase {
+  padding-top: 50px;
+}
+ */
