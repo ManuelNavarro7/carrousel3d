@@ -58,7 +58,7 @@ body {
       rgba(23, 22, 22, 0.35),
       rgba(23, 22, 22, 0.35)
     ),
-    url("/imgs/2112.jpeg");
+    url("../imgs/2112.jpeg");
 
   background-size: cover;
 }
@@ -96,7 +96,7 @@ body {
       rgba(23, 22, 22, 0.35),
       rgba(23, 22, 22, 0.35)
     ),
-    url("/imgs/321.jpeg");
+    url("../imgs/321.jpeg");
 
   background-size: cover;
 }
@@ -134,7 +134,7 @@ body {
       rgba(23, 22, 22, 0.35),
       rgba(23, 22, 22, 0.35)
     ),
-    url("/imgs/43434343.jpeg");
+    url("../imgs/43434343.jpeg");
 
   background-size: cover;
 }
